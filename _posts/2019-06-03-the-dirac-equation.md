@@ -4,6 +4,7 @@ author : Prakash Gautam
 Date   : 03-06-2019 19:08:25
 title: The Dirac Equation
 tags: Dirac Schrodinger LaTeX
+categoreis: Physics
 description: very brief introduction to the Dirac equation
 ---
 

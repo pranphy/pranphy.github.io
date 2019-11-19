@@ -4,6 +4,7 @@ date: 2019-05-27 16:34:41
 title: The Klein-Gordan equation
 author: Prakash
 tags: Schrodinger Klein-Gordan Lorentz-Invariance
+categories: Physics
 description: an introduction to the Dirac equation
 ---
 

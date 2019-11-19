@@ -4,6 +4,7 @@ date:  2019-09-03
 author: Prakash
 title : A possible model for free will
 tags: Free-Will entanglement
+categories: Thought
 description: a stub possible model for free will.
 ---
 

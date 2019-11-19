@@ -1,6 +1,6 @@
 plugins: [jekyll-paginate]
 
-permalink: /blog/:categories/:title/
+permalink: blog/:categories/:title/
 
 highlighter: rouge
 markdown: kramdown

@@ -3,10 +3,11 @@ layout: post
 title: Introduction to Einstein's field equations
 date: 2019-05-26 13:04:00
 tags: GR Einstein Field-Theory Tensor
+categories: Physics
 description: a brief look into Einstein's field equation
 ---
 
-### Einstein's Field Equations
+## Einstein's Field Equations
 
 The Einstein's field equation is 
 \begin{equation}
