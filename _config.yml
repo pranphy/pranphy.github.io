@@ -35,9 +35,9 @@ github:
 swiftype:
   searchId: 
 gitment:
-    repo: blog
-    client_id: 
-    client_secret: 
+    repo: pranphy.github.io
+    client_id: 9018c93d90caaeb61b82
+    client_secret: 9718765fb4f4cb8cd84403467b9e4504882282d4
 
 url: "https://pranphy.github.io/"
 imgrepo: "https://pranphy.github.io/static/img"
