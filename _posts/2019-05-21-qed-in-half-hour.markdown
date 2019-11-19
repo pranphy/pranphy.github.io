@@ -2,6 +2,7 @@
 layout: post
 title: QED in half hour
 tags: QED LaTeX Field-Theory
+categories: physics
 date: 2019-05-20 15:09:00
 description: a brief look into QED and its working in under half an hour.
 ---
