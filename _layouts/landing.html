@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Prakash(@pranphy) homepage:: प्रकाश गौतम गृहपृष्ठ</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/static/css/arial-main.css" /> 
+		<noscript><link rel="stylesheet" href="/static/css/arial-noscript.css" /></noscript>
+
+        {% for style in page.styles %}<link rel="stylesheet" type="text/css" href="{{ '/static/css/' | append: style | prepend: site.baseurl | prepend: site.url}}" />
+        {%endfor%}
+
+        {% if page.nstyles %}
+        <noscript>
+        {% for nstyle in page.nstyles %}
+            <link rel="stylesheet" type="text/css" href="{{ '/static/css/' | append: nstyle | prepend: site.baseurl | prepend: site.url}}" />
+        {%endfor%}
+        </noscript>
+        {% endif %}
+    </head>
+	<body class="is-preload">
+        {{ content }}
+        {% for script in page.scripts %}
+            <script type="text/javascript" src="{{'/static/js/' | append:script | prepend:site.baseurl | prepend: site.url  }}"></script> 
+        {%endfor%}
+    </body>
+</html>

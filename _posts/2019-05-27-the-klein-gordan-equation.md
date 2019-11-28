@@ -4,13 +4,13 @@ date: 2019-05-27 16:34:41
 title: The Klein-Gordan equation
 author: Prakash
 tags: Schrodinger Klein-Gordan Lorentz-Invariance
-categories: Physics
+categories: physics
 description: an introduction to the Dirac equation
 ---
 
 # Schr&ouml;dinger's Equation
 Two of the greatest triumphs in Physics in the first three decades of 20<sup>th</sup> century are, i) Einstein's Theory of Relativity", both special and general, and  ii) Quantum Mechanics. While both of them are very successful, there is still some friction between them.  Special Theory of Relativity taught us that space and time (which we thought were independent), in fact, were just components of more fundamental 4-dimensional spacetime. There are various ways we can formulate quantum mechanics, in any case, Schr&ouml;dinger's equation can be thought of as of central importance to the theory.  The Schr&ouml;dinger's equation is
-
+<!--  -->
 * TOC
 {:toc}
 
@@ -64,13 +64,14 @@ $$
 $$
 
 # Lorentz Invariance
+
 The obvious problem in this equation is that it treats time as special from rest of the spatial coordinates, for the time derivative appearing in the above equation is is first order but the spatial derivative is second order. For this reason it is evidently not Lorentz invariant which implies it doesn't satisfy special theory of relativity which is the fundamental law of nature. We could try to incorporate Lorentz invariance by writing the Hamiltonian as
 
 $$
 \hat{H} = \sqrt{\hat{p}^2c^2 + m^2 c^4} 
 $$
 
-which comes from the Energy relation in special relativity. Thus the Schr&ouml;dinger's equation becomes 
+which comes from the Energy relation in special relativity. Thus the Schr&ouml;dinger's equation becomes
 
 $$
 \sqrt{ -\hbar^2 \nabla^2 c^2 + m^2 c^4} \psi(x) = i\hbar \pdv{}{t} \psi(x)
@@ -109,12 +110,12 @@ $$
 So the above expression becomes
 
 $$
-\begin{align} \label{eq:KleinGordanPrem}
+\begin{align} \label{eq:KG}
 \hbar^2 \left( \square + \left( \frac{mc}{\hbar} \right)^{2}\right) \psi(x) = 0
 \end{align}
 $$
 
-Equation. \eqref{eq:KleinGordanPrem} is called the Klein-Gordan equation. For sake of brevity we usually work in the units of $\hbar =1 =c $, which are called the natural units. In this system of units, the Klein Gordan equation becomes 
+Equation. \eqref{eq:KG} is called the Klein-Gordan equation. For sake of brevity we usually work in the units of $\hbar =1 =c $, which are called the natural units. In this system of units, the Klein Gordan equation becomes  new
 
 $$
 \begin{align*}

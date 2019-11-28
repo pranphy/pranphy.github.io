@@ -10,7 +10,7 @@ kramdown:
 
 
 paginate: 10
-paginate_path: "page/:num"
+paginate_path: "/blog/page/:num"
 baseurl: ""
 
 
@@ -25,13 +25,22 @@ defaults:
       styles : [highlight.css,gitment.css,post.css]
       scripts : [gitment.js, post.js]
 
-
+name:
+    default: Prakash
+    alternate: प्रकाश
 
 title: "Prakash"
 email: pranphy@gmail.com
 description: ""
 github:
   username: pranphy
+social:
+    github: pranphy
+    facebook: pranphy
+    twitter: pranphy
+    gmail: pranphy
+
+
 swiftype:
   searchId: 
 gitment:

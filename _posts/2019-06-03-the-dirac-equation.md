@@ -4,11 +4,12 @@ author : Prakash Gautam
 Date   : 03-06-2019 19:08:25
 title: The Dirac Equation
 tags: Dirac Schrodinger LaTeX
-categoreis: Physics
+categoreis: physics
 description: very brief introduction to the Dirac equation
 ---
 
 # Klein Gordan Equation
+
 We have seen in [this post]({% post_url  2019-05-27-the-klein-gordan-equation %}) that Klein-Gordan equation describes a spinless particle with mass $m$. The Klein-Gordan equation formally is
 
 
@@ -94,7 +95,6 @@ $$
 $$
 
 Which is our glorius Dirac equation, which describes the particle dynamics of particle with spin. 
-
 
 
 [//]: # (this is some comment)

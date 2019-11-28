@@ -2,7 +2,7 @@
     font-family: sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #333;
+    color: #white;
     word-wrap: break-word;
 }
 
@@ -220,8 +220,8 @@ a.gitment-comment-name:visited {
 }
 
 .gitment-editor-tab.gitment-selected {
-    color: #333;
-    background-color: #fff;
+    color: #fff;
+    background-color: #333;
     border-color: #CFD8DC;
 }
 
@@ -314,9 +314,9 @@ a.gitment-editor-logout-link:hover {
     font-size: 14px;
     line-height: 1.6;
 
-    background-color: #fff;
+    background-color: black;
 
-    color: #333;
+    color: white;
     vertical-align: middle;
     border: none;
     border-radius: 0;

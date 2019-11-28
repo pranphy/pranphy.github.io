@@ -13,7 +13,7 @@ layout: null
 }
 
 .navbar-tiffany{
-    background-color: #2ca6cb;
+    background-color: #343637;
     border-top: 1px solid rgba(255,255,255,0.2);
     border-bottom: 1px solid rgba(0,0,0,0.1);
     box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
@@ -103,7 +103,8 @@ html{
     margin: 0px 0px 0px 0px;
 }
 body {
-    background-image: url({{ "/static/bg.jpg" | prepend: site.baseurl | prepend: site.url }});
+    /*background:#1c1c1c;*/
+    background-color: rgb(18, 20, 21);
     height: 100%;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
@@ -111,7 +112,6 @@ body {
 
 body,code,pre{
     font-family:  "Menlo", "Monaco", "Consolas", "Courier New", "monospace", "Helvetica", "Tahoma", "Arial",
-    "WenQuanYi Micro Hei", "文泉驿微米黑", "STXihei", "华文细黑", "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", "Heiti", "黑体", sans-serif;
 }
 
 body,.sheet,pre,code{
@@ -119,10 +119,10 @@ body,.sheet,pre,code{
 }
 
 
-a:link {text-decoration: none}		/* 未访问的链接 */
-a:visited {text-decoration: none}	/* 已访问的链接 */
-a:hover {text-decoration: none}	/* 鼠标移动到链接上 */
-a:active {text-decoration: none}	/* 选定的链接 */
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:hover {text-decoration: none}
+a:active {text-decoration: none}
 
 .main{
     min-height: 100%;
@@ -135,12 +135,16 @@ a:active {text-decoration: none}	/* 选定的链接 */
 }
 
 .sheet{
-    word-break: break-all;
-	background-color:#f8f8fd;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-	-o-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+    word-break: none;
+    text-align: justify;
+	background-color:#000000;
+    color: #cacaca;
+    font-size: 1.2em;
+
+    -webkit-box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+    -moz-box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+    -o-box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+    box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
 }
 
 .sheet{
@@ -188,11 +192,16 @@ a:active {text-decoration: none}	/* 选定的链接 */
 }
 
 .shadow-bottom-center{
-	background-color:#f8f8fd;
-	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	box-shadow: 0 1px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
+    word-break: none;
+    text-align: justify;
+	background-color:#000000;
+    color: #cacaca;
+    font-size: 1.2em;
+
+    -webkit-box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+    -moz-box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+    -o-box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+    box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
 }
 
 .word-keep{

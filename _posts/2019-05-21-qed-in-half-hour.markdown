@@ -16,13 +16,13 @@ In the early days of the encounter with Electricity and magnetism, these were st
 
 $$
 \begin{align*}
-    \nabla \cdot   \vec{B}              &= 0\nonumber 
+    \nabla \cdot   \vec{B}  &= 0\nonumber 
 \end{align*}
 $$ 
 
 $$
 \begin{align*}
-    \nabla \cdot   \vec{E}              &= \frac{\rho}{\epsilon_0} \nonumber 
+    \nabla \cdot \vec{E}   &= \frac{\rho}{\epsilon_0} \nonumber 
 \end{align*}
 $$
 

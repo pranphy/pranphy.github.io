@@ -1,0 +1,23 @@
+$grey-background: #201f1f;
+
+body{
+	background: #050306 !important;
+    margin: 0;
+    padding: 0;
+}
+.canvas {
+    position:relative;
+}
+
+.background {
+    color: blue;
+    position: absolute;
+    .text {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        font-family: Eczar;
+        z-index: 2;
+    }
+}
+

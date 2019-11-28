@@ -126,13 +126,20 @@ Main components
     }
 }
 
+.cd-timeline-content h4 {
+    color: white;
+}
+
 .cd-timeline-content {
+    background-color:
+    rgb(15, 17, 18);
+    background-image: none;
+    box-shadow: rgb(29, 31, 32) 0px 3px 0px;
+
     position: relative;
     margin-left: 60px;
-    background: white;
     border-radius: 0.25em;
     padding: 1em;
-    box-shadow: 0 3px 0 #d7e4ed;
 }
 .cd-timeline-content:after {
     content: "";
