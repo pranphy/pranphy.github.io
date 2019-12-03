@@ -1,10 +1,10 @@
 ---
 title: On the sixth Ballon D'or to Messi
 author: प्रकाश
-date : 2019-12-03 
+date : 2019-12-06 
 मिति : २०७६ मंसिर १७ म
-tags : Messi Ballon-d'Or GOAT
-categories:
+tags : messi ballon-d'or GOAT stub
+categories: sports
 description: Messi has just won the sixth Ballon d'Or. I discuss briefly about my take on this and messi in general.
 ---
 
@@ -13,4 +13,6 @@ Messi won his sixth Ballon D'or yesterday 2019-12-02. I used to fancy this award
 Full disclaimer that I might be biased towards Messi but I honestly feel that if this award was for the best player over the evaluation period of previous season, it would go to only one man since 20009 (possibly with an expection of a year where we missed 3 months with injury). And that man is the enigmatic magician Lionel Messi. 
 
 What Messi does in the football pitch is sometimes beyond comprehension. Finishing, Passing, Dribbling, Entertaining in all of these categories is he amongst the best SIMULTANEOUSLY as a single individual playing on the field.
+
+One of the most underrated qualities of Messi is his passing. His ability to dissect defences and find perfectly weighted pin piont passes to his opponents is something I have never seen other players do consistantly and as often.
 
