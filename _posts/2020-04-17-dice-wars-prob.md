@@ -27,41 +27,42 @@ It is not hard to see the constraint
 
 \begin{align}
     f_1(n) = 
-    \begin{cases}
+    \left\lbrace
+    \begin{array}{ll}
         1 & \text{if } n > 0 \\
         0 & \text{otherwise}
-    \end{cases}
+     \end{array}
+     \right.
 \end{align}
 
 These are the edge cases we can identify because of constraints in hand. Before trying to find the function for general $k$ and $n$ lets try a special case.
 
 For a special case of $f_3(7)$, i.e., the number of ways we can express $7$ as a sum of $3$ integers between $1$ and $6$
 
-We can write $7$ as a sum of 2 integers as
+We can write $7$ as a sum of $2$ integers as
 
-1 + 6 or 2 + 5 or 3 + 4 or 4 + 3 or 5 + 2 or 6 + 1 
-There are a total of 6 ways we can do it. But if we want to express it as  sum of 3 integers then we can write the second integer as a sum of 2 integer. Then the number of ways we can express $7$ as a sum of three integers becomes the sum of the number of ways we can express 6 as sum of 2 integers plus the number of ways we can write 5 as a sum of 2 integers and so on.
+$1 + 6$ or $2 + 5$ or $3 + 4$ or $4 + 3$ or $5 + 2$ or $6 + 1$ 
+There are a total of $6$ ways we can do it. But if we want to express it as  sum of $3$ integers then we can write the second integer as a sum of $2$ integer. Then the number of ways we can express $7$ as a sum of three integers becomes the sum of the number of ways we can express 6 as sum of 2 integers plus the number of ways we can write 5 as a sum of 2 integers and so on.
 
 This leads us to write 
-
 \begin{align}
     f_3(7) = f_2(6) + f_2(5) + f_2(4) + f_2(3) + f_2(2) + f_2(1)
 \end{align}
 
 This suggests us a general expression  for $k \geq 2$
-
 \begin{align}
     f_k(n) = \sum_i f_{k-1}(n-i) 
 \end{align}
-
 This is a recursive function the general expression for all $k$ then is 
 
 \begin{align}
     f_k(n) = 
-    \begin{cases}
+    \left\lbrace
+    \begin{array}{ll}
         1 & \text{ if } k = 1 \\
         \sum_i f_{k-1}(n-i) & \text{ if } k > 1
-    \end{cases}
+    \end{array}
+    \right.
 \end{align}
 
 Below is a python function that calculates this function
@@ -122,7 +123,6 @@ plt.savefig('Prob_count',dpi=120,bbox_inches='tight')
 
 <img src="{{'/static/img/Split_11_0.png' | prepend: site.baseurl | prepend: site.url }}"/>
 
-
 # Probability of tie
 The pobability of tie in a game of two players throwing $k$ and $m$ die respectively is simply the probability that they roll the same sum. The set of possible sum of player with k die is 
 
@@ -179,8 +179,8 @@ ms = ks = np.arange(1,maxn+1,1)
 %time tie_prob_table = generate_table(ms,ks,get_tie_prob)
 ```
 
-    CPU times: user 1.78 s, sys: 48 ms, total: 1.83 s
-    Wall time: 1.78 s
+    CPU times: user 2.29 s, sys: 18.3 ms, total: 2.31 s
+    Wall time: 2.29 s
 
 
 
@@ -313,8 +313,8 @@ Generating the table
 %time win_prob_table = generate_table(ms,ks,get_win_prob)
 ```
 
-    CPU times: user 19.4 s, sys: 189 ms, total: 19.6 s
-    Wall time: 19.5 s
+    CPU times: user 18.9 s, sys: 152 ms, total: 19 s
+    Wall time: 18.9 s
 
 
 
@@ -413,3 +413,4 @@ win_prob_table
 
 
 The probability of win for player $m$ when players have $(m,k)$ dice respectively corresponds to the cell $(m,k)$ in the table above.
+

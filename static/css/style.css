@@ -271,3 +271,7 @@ a:active {text-decoration: none}
         font-size: 36px;
     }
 }
+pre {
+    background: #121516 !important;
+    color: #fff;
+}
