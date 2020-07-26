@@ -141,10 +141,10 @@ a:active {text-decoration: none}
     color: #cacaca;
     font-size: 1.2em;
 
-    -webkit-box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-    -moz-box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-    -o-box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-    box-shadow: 0 1px 12px rgba(255,250,250,0.4),0 0 30px rgba(10,10,0,0.1) inset;
+    -webkit-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.4),0 0 30px rgba(253, 253, 253, 0) inset;
+    -moz-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.4),0 0 30px rgba(253, 253, 253, 0) inset;
+    -o-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.4),0 0 30px rgba(253, 253, 253, 0) inset;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.4),0 0 30px rgba(253, 253, 253, 0) inset;
 }
 
 .sheet{
