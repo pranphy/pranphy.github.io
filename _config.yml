@@ -15,6 +15,11 @@ baseurl: ""
 
 future: false
 
+collections:
+    tikz:
+        output: true
+        permalink: /tikz/:path/
+
 
 defaults:
   -
@@ -43,7 +48,7 @@ social:
 
 
 swiftype:
-  searchId: 
+  searchId:
 gitment:
     repo: pranphy.github.io
     client_id: 9018c93d90caaeb61b82
@@ -51,8 +56,3 @@ gitment:
 
 url: "https://pranphy.github.io"
 imgrepo: "https://pranphy.github.io/static/img"
-
-
-#url: "http://127.0.0.1:4000"
-#imgrepo: "http://127.0.0.1:4000/static/img"
-

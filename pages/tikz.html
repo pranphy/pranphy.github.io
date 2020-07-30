@@ -1,0 +1,33 @@
+---
+layout: default
+title: Tikz
+permalink: /tikz/
+icon: octicon-book
+isNavItem: true
+styles : [tikz-list.css]
+---
+
+<!--<link rel="stylesheet" type="text/css" href="{{ '/static/css/div-list.css' | prepend: site.baseurl | prepend: site.url}}" /> -->
+
+<div class="row">
+  {% for tikz in site.tikz%}
+  <div class="col-sm-10  col-md-3 col-lg-3 ">
+        <div class="category-slice" post-cate="All">
+            <div class="imgbox">
+                <div class="module">
+                  <a class="title" href="{{ tikz.url | prepend: site.baseurl | prepend: site.url }}">
+                      <div class="image" style="background: white">
+                          <img src="{{ tikz.image | prepend: '/static/img/tikz/' | prepend: site.baseurl | prepend: site.url }}"/>
+                      </div>
+                  </a>
+                  <footer>
+                      {% for tag in tikz.tags %}
+                          <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}">#&nbsp;{{ tag }}</a>
+                      {% endfor %}
+                  </footer>
+                </div>
+            </div>
+        </div>
+      </div>
+  {% endfor %}
+</div>
