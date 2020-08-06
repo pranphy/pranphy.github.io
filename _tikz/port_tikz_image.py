@@ -66,9 +66,15 @@ if __name__ == '__main__':
 
     tikzpath = Path(path)
 
-    all_images = tikzpath.glob('**/*.tex')
+    all_images = None
+
+    if tikzpath.is_file():
+        all_images = [tikzpath]
+    else:
+        all_images = tikzpath.glob('**/*.tex')
+
     for imagepath in all_images:
-        #copy_image(imagepath)
+        copy_image(imagepath)
         fname = imagepath.stem
         #print(f'{imagepath.stem:>20} :: {imagepath.suffix:>5} :: {imagepath.parent}')
         content = read_text(imagepath)
