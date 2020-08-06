@@ -48,6 +48,7 @@
 
 .imgbox .image {
     height: 207px;
+    display: flex;
 }
 
 .imgbox img {
